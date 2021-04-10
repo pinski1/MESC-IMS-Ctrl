@@ -720,8 +720,6 @@ F 3 "~" H 7700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8100 2500
-Wire Wire Line
-	8100 2500 8200 2500
 Connection ~ 7900 1650
 Wire Wire Line
 	7900 1650 8200 1650
@@ -732,4 +730,61 @@ Wire Wire Line
 	7500 1650 7900 1650
 Wire Wire Line
 	7700 2500 7900 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 609A4C8D
+P 8200 1650
+AR Path="/609A4C8D" Ref="TP?"  Part="1" 
+AR Path="/6071142D/609A4C8D" Ref="TP9"  Part="1" 
+F 0 "TP9" V 8200 1950 50  0000 C CNN
+F 1 "TestPoint" V 8304 1722 50  0001 C CNN
+F 2 "" H 8400 1650 50  0001 C CNN
+F 3 "~" H 8400 1650 50  0001 C CNN
+	1    8200 1650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8100 2500 8200 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 609A7EA9
+P 8200 2500
+AR Path="/609A7EA9" Ref="TP?"  Part="1" 
+AR Path="/6071142D/609A7EA9" Ref="TP10"  Part="1" 
+F 0 "TP10" V 8200 2800 50  0000 C CNN
+F 1 "TestPoint" V 8304 2572 50  0001 C CNN
+F 2 "" H 8400 2500 50  0001 C CNN
+F 3 "~" H 8400 2500 50  0001 C CNN
+	1    8200 2500
+	0    1    -1   0   
+$EndComp
+Connection ~ 8200 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 609A8742
+P 6600 4800
+AR Path="/609A8742" Ref="TP?"  Part="1" 
+AR Path="/6071142D/609A8742" Ref="TP8"  Part="1" 
+F 0 "TP8" V 6600 5100 50  0000 C CNN
+F 1 "TestPoint" V 6704 4872 50  0001 C CNN
+F 2 "" H 6800 4800 50  0001 C CNN
+F 3 "~" H 6800 4800 50  0001 C CNN
+	1    6600 4800
+	0    1    -1   0   
+$EndComp
+Connection ~ 6600 4800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 609A9CC5
+P 2600 2400
+AR Path="/609A9CC5" Ref="TP?"  Part="1" 
+AR Path="/6071142D/609A9CC5" Ref="TP7"  Part="1" 
+F 0 "TP7" V 2600 2700 50  0000 C CNN
+F 1 "TestPoint" V 2704 2472 50  0001 C CNN
+F 2 "" H 2800 2400 50  0001 C CNN
+F 3 "~" H 2800 2400 50  0001 C CNN
+	1    2600 2400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2600 2400
 $EndSCHEMATC
