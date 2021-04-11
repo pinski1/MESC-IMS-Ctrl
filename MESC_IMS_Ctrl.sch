@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "MESC_IMS_ESC"
+Title "MESC_IMS_Ctrl"
 Date "2021-04-10"
 Rev "0.0.1"
 Comp ""

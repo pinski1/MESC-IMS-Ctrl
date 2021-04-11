@@ -1,9 +1,9 @@
-# MESC IMS ESC
+# MESC IMS Ctrl
 A derivative of the Molony ESC. STM32F303 based BLDC logic board designed to interface to an IMS power stage.
 
 Please see https://github.com/davidmolony/MESC_FOC_ESC for further details.
 
-## MESC_IMS_ESC.sch
+## MESC_IMS_Ctrl.sch
 
 * Using STM32F303 like MESC_FOC_ESC
 * Using USB 2.0 type C connector for future compatibility
