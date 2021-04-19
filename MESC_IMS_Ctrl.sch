@@ -2509,4 +2509,8 @@ F 4 "~" H 4550 2250 50  0001 C CNN "LCSC"
 	1    4550 2250
 	0    -1   -1   0   
 $EndComp
+Text Label 1750 1350 0    50   ~ 0
+D-
+Text Label 1750 1650 0    50   ~ 0
+D+
 $EndSCHEMATC
