@@ -157,10 +157,6 @@ Wire Wire Line
 	1500 6550 2000 6550
 Wire Wire Line
 	1500 6650 2000 6650
-Wire Wire Line
-	1500 6750 2000 6750
-Text Label 1650 6750 0    50   ~ 0
-SWO
 Text Label 1650 6650 0    50   ~ 0
 SWD_DIO
 Text Label 1650 6550 0    50   ~ 0
@@ -2133,13 +2129,13 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60792780
-P 6300 7350
-F 0 "H3" H 6400 7396 50  0000 L CNN
-F 1 "MountingHole" H 6400 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6300 7350 50  0001 C CNN
-F 3 "~" H 6300 7350 50  0001 C CNN
-F 4 "~" H 6300 7350 50  0001 C CNN "LCSC"
-	1    6300 7350
+P 6300 7400
+F 0 "H3" H 6400 7446 50  0000 L CNN
+F 1 "MountingHole" H 6400 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6300 7400 50  0001 C CNN
+F 3 "~" H 6300 7400 50  0001 C CNN
+F 4 "~" H 6300 7400 50  0001 C CNN "LCSC"
+	1    6300 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2276,4 +2272,7 @@ Wire Wire Line
 	7750 6150 8650 6150
 Wire Wire Line
 	7750 4700 8650 4700
+NoConn ~ 1500 6750
+Text Label 4700 2650 0    50   ~ 0
+CLK
 $EndSCHEMATC
