@@ -2,14 +2,14 @@
 # MESC IMS Ctrl
 A derivative of the Molony ESC. STM32F303 based BLDC logic board designed to interface to an IMS power stage.
 
-![An initial 3D render of the board.]("./outputs/MESC-IMS-Ctrl.png")
+![An initial 3D render of the board.](outputs/MESC-IMS-Ctrl.png)
 
 Please see https://github.com/davidmolony/MESC_FOC_ESC for further details.
 
 For the most recent schematic check out the 'outputs' folder.
 
 This board is designed to fit on a 12FET power stage IMS PCB
-![The 12FET Power stage with only half the MOSFETs]("./outputs/IMS_Power_Stage.jpg")
+![The 12FET Power stage with only half the MOSFETs](outputs/IMS_Power_Stage.jpg)
 
 ## "MESC_IMS_Ctrl.sch"
 
