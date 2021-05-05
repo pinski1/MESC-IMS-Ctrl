@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 5 5
 Title "MESC_IMS_Ctrl"
 Date "2021-04-10"
 Rev "0.0.1"
@@ -324,7 +324,7 @@ AR Path="/6074FE4E/60741D48" Ref="R62"  Part="1"
 AR Path="/6075047A/60741D48" Ref="R76"  Part="1" 
 F 0 "R76" H 9520 5246 50  0000 L CNN
 F 1 "82k" H 9520 5155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9380 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 5200 50  0001 C CNN
 F 3 "~" H 9450 5200 50  0001 C CNN
 F 4 "C4142" H 9450 5200 50  0001 C CNN "LCSC"
 	1    9450 5200
@@ -428,21 +428,6 @@ Wire Wire Line
 	9450 5450 8800 5450
 Text HLabel 8800 5450 0    50   Output ~ 0
 V_SEN
-$Comp
-L Device:R R49
-U 1 1 60742356
-P 9450 5700
-AR Path="/6070CE7F/60742356" Ref="R49"  Part="1" 
-AR Path="/6074FE4E/60742356" Ref="R63"  Part="1" 
-AR Path="/6075047A/60742356" Ref="R77"  Part="1" 
-F 0 "R77" H 9520 5746 50  0000 L CNN
-F 1 "1k5" H 9520 5655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9380 5700 50  0001 C CNN
-F 3 "~" H 9450 5700 50  0001 C CNN
-F 4 "C25867" H 9450 5700 50  0001 C CNN "LCSC"
-	1    9450 5700
-	1    0    0    -1  
-$EndComp
 Text Notes 3350 5950 0    50   ~ 0
 Phase current sense\nmid point should be ~~1.65V
 Text Notes 9200 4600 0    50   ~ 0
@@ -982,10 +967,8 @@ Wire Wire Line
 	4900 6050 4900 6150
 Wire Wire Line
 	4800 7050 4800 6950
-Text Notes 5200 6650 2    50   ~ 0
-DNF
 Wire Wire Line
-	5800 6550 5800 5400
+	5800 6550 5800 6150
 Wire Wire Line
 	5300 6550 5800 6550
 Connection ~ 5800 5400
@@ -997,4 +980,36 @@ Text Label 5700 5400 0    50   ~ 0
 CURR_SEN+
 Text Label 5700 5600 0    50   ~ 0
 CURR_SEN-
+$Comp
+L Device:R R49
+U 1 1 60742356
+P 9450 5700
+AR Path="/6070CE7F/60742356" Ref="R49"  Part="1" 
+AR Path="/6074FE4E/60742356" Ref="R63"  Part="1" 
+AR Path="/6075047A/60742356" Ref="R77"  Part="1" 
+F 0 "R77" H 9520 5746 50  0000 L CNN
+F 1 "1k5" H 9520 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 5700 50  0001 C CNN
+F 3 "~" H 9450 5700 50  0001 C CNN
+F 4 "C25867" H 9450 5700 50  0001 C CNN "LCSC"
+	1    9450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 60924C9F
+P 5800 6000
+AR Path="/6070CE7F/60924C9F" Ref="JP2"  Part="1" 
+AR Path="/6074FE4E/60924C9F" Ref="JP3"  Part="1" 
+AR Path="/6075047A/60924C9F" Ref="JP4"  Part="1" 
+F 0 "JP4" V 5754 6068 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 5845 6068 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5800 6000 50  0001 C CNN
+F 3 "~" H 5800 6000 50  0001 C CNN
+F 4 "~" H 5800 6000 50  0001 C CNN "LCSC"
+	1    5800 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 5850 5800 5400
 $EndSCHEMATC
