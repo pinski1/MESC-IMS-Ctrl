@@ -636,7 +636,7 @@ AR Path="/609A4C8D" Ref="TP?"  Part="1"
 AR Path="/6071142D/609A4C8D" Ref="TP9"  Part="1" 
 F 0 "TP9" V 8450 4000 50  0000 C CNN
 F 1 "TestPoint" V 8554 3772 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8650 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8650 3700 50  0001 C CNN
 F 3 "~" H 8650 3700 50  0001 C CNN
 F 4 "~" H 8450 3700 50  0001 C CNN "LCSC"
 F 5 "Yes" H 8450 3700 50  0001 C CNN "Checked"
@@ -653,7 +653,7 @@ AR Path="/609A7EA9" Ref="TP?"  Part="1"
 AR Path="/6071142D/609A7EA9" Ref="TP10"  Part="1" 
 F 0 "TP10" V 7000 1900 50  0000 C CNN
 F 1 "TestPoint" V 7104 1672 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7200 1600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7200 1600 50  0001 C CNN
 F 3 "~" H 7200 1600 50  0001 C CNN
 F 4 "~" H 7000 1600 50  0001 C CNN "LCSC"
 F 5 "Yes" H 7000 1600 50  0001 C CNN "Checked"
@@ -669,7 +669,7 @@ AR Path="/609A9CC5" Ref="TP?"  Part="1"
 AR Path="/6071142D/609A9CC5" Ref="TP7"  Part="1" 
 F 0 "TP7" V 1400 1800 50  0000 C CNN
 F 1 "TestPoint" V 1504 1572 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1600 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1600 1500 50  0001 C CNN
 F 3 "~" H 1600 1500 50  0001 C CNN
 F 4 "~" H 1400 1500 50  0001 C CNN "LCSC"
 F 5 "Yes" H 1400 1500 50  0001 C CNN "Checked"
@@ -686,7 +686,7 @@ AR Path="/609A8742" Ref="TP?"  Part="1"
 AR Path="/6071142D/609A8742" Ref="TP8"  Part="1" 
 F 0 "TP8" V 5550 6200 50  0000 C CNN
 F 1 "TestPoint" V 5654 5972 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5750 5900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5900 50  0001 C CNN
 F 3 "~" H 5750 5900 50  0001 C CNN
 F 4 "~" H 5550 5900 50  0001 C CNN "LCSC"
 F 5 "Yes" H 5550 5900 50  0001 C CNN "Checked"
